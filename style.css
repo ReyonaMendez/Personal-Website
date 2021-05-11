@@ -1,70 +1,74 @@
-*{font-family: Rubik;}
+*{font-family: Rubik; font-style: normal;}
 
 
-
-
-
-body{
-    margin:120px;
-    margin-top:50px;
-
-}
 
 .header{
+    margin-left:211px;    
     display:flex;
     justify-content: space-between;
     align-items:center;
 }
-
-.header-left > h1 {
-    display: flex;
+.header-left{
+    top:40px; 
+    padding-top: 40px;
     align-items: center;
-    font-weight: 100;
+}
+.header-left > h1 {  
+    font-weight: 500;
+    font-size: 24px;
     color: #7562E0;
+    width: 63px;
+    height: 28px;
     
 }
 
+.header-right{
+    margin-right:211px;
+    top:49px;  
+    padding-top:49px;  
+}
   
 .header-right > a {
+    
     text-decoration: none;
     color: black;
-    margin-left: 35px;
+    margin-left: 44px;
     
 }
-
-.content-left{
-    width:500px;
-}
-
 
 
 .header2{
-    margin-top: 50px;
     display:flex;
     justify-content: space-between;
 }
 
-
+.content-left{
+    position: absolute;
+    margin-left: 211px;
+    margin-top: 243px;
+}
 
 .header2>.content-left >.h1{
-    width: 200px;
-    height: 190px;
-    margin-top: 311px;
-    font-weight: 600;
-    font-size: 80px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    width: 213px;
+    height: 139px;
+    font-weight: 500;
+    font-size: 60px;
     color: #120644;
-
 }
 
 .header2>.content-left >h5{
+    margin-top: 5px;
     width: 237px;
-    height: 42px;
-    font-weight: normal;
-    font-size: 18px;
+    height: 38px;
+    font-weight: 350;
+    font-size: 17px;
+    display: block;
     color: #000000;
 }
 
- .btn {
+.btn {
     width: 188px;
     height: 51px;
     color:#ffff;
@@ -77,17 +81,65 @@ body{
 }
 
 .content-right{
-    margin-top: 110px;
-    width: 740px;
-    height: 620px;
+    position: absolute;
+    width: 1020px;
+    height: 1020px;
+    left: 789px;
+    top: 242px;
     background: #A696FF;
-    float: right;
-    border-radius: 100px 0 0 0;
-    -moz-border-radius: 100px 0 0 0;
-    -webkit-border-radius: 650px 0 0 0;
+    border-radius: 50%;
+   
 }
 
 .content-right > .image1{
-    margin-top: 59px;
+    position: absolute;
+    width: 625px;
+    height: 784px;
+    left: -239px;
+    top: -144px;
+}
+.header2 > .content-right>.icon{
+    display: flex;
+    flex-direction:column;
+    width:40px;
+    height:90px;
+    
 }
 
+.header2 > .content-right>.icon >.ri-facebook-fill{
+    font-size: x-large;
+    margin-top: 300px;
+    margin-left: 380px;
+    color: #FFFFFF;
+   
+    
+} 
+
+
+.header2 > .content-right>.icon >.ri-twitter-fill{
+    font-size: x-large;
+    margin-top: 0px;
+    margin-left: 380px;
+    color: #FFFFFF;
+
+}
+
+.header2 > .content-right>.icon >.ri-linkedin-fill{
+    
+    float:left;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-left: 380px;
+    color: #FFFFFF;
+
+}
+
+.header2 > .content-right>.icon >.ri-github-fill{
+    
+    float:left;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-left: 380px;
+    color: #FFFFFF;
+
+}
