@@ -73,6 +73,7 @@
     height: 51px;
     color:#ffff;
     background: #7562E0;
+    border: none;
 }
 
 .header2>.content-left> .btn > a{
@@ -80,66 +81,43 @@
     text-decoration: none;
 }
 
+/* ************************************************************** */
+
 .content-right{
+    /* width: 1020px;
+    height: 900px;
+    right: 270px;
+    background-color: brown; */
+}
+
+.circle{
     position: absolute;
     width: 1020px;
     height: 1020px;
-    left: 789px;
-    top: 242px;
-    background: #A696FF;
+    background-color: #A696FF;
     border-radius: 50%;
-   
+    z-index: -2;
+    right: -386px;
+    top: 242px;
 }
 
 .content-right > .image1{
+    width: 500px;
+    height: 600px;
     position: absolute;
-    width: 625px;
-    height: 784px;
-    left: -239px;
-    top: -144px;
+    right: 290px;
+    bottom: 0;
+    z-index: -1;
+    
 }
 .header2 > .content-right>.icon{
-    display: flex;
-    flex-direction:column;
-    width:40px;
-    height:90px;
-    
+    position: absolute;
+    width: 14px;
+    height:26px;
+    font-size: xx-large;
+    align-items: flex-start;
+    bottom: 150px;
+    right :235px;
+    color:#ffffff;
 }
 
-.header2 > .content-right>.icon >.ri-facebook-fill{
-    font-size: x-large;
-    margin-top: 350px;
-    margin-left: 380px;
-    color: #FFFFFF;
-   
-    
-} 
-
-
-.header2 > .content-right>.icon >.ri-twitter-fill{
-    font-size: x-large;
-    margin-top: 0px;
-    margin-left: 380px;
-    color: #FFFFFF;
-
-}
-
-.header2 > .content-right>.icon >.ri-linkedin-fill{
-    
-    float:left;
-    font-size: x-large;
-    margin-top: 20px;
-    margin-left: 380px;
-    color: #FFFFFF;
-
-}
-
-.header2 > .content-right>.icon >.ri-github-fill{
-    
-    float:left;
-    font-size: x-large;
-    margin-top: 20px;
-    margin-left: 380px;
-    color: #FFFFFF;
-
-}
