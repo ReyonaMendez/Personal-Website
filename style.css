@@ -1,8 +1,4 @@
 
-
-
-
-
 *{font-family: Rubik; font-style: normal; margin-top: 0; }
 
 :root{
@@ -281,6 +277,9 @@
    margin-top:-99px ;
    margin-left:211px;
    z-index: 1;
+   display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .text-exp{
@@ -288,11 +287,9 @@
     font-family: var(--font-rubik);
     width: 543px;
     height: 117px;
-    /* display:inline-flex;
-    flex-direction: row;
-    justify-content: first baseline; */
-    /* justify-content: space-between; */
-    /* margin-top: 35px; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
     
 }
 
