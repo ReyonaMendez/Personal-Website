@@ -25,7 +25,7 @@
     display: grid;
     grid-template-columns: 1fr ;
     grid-template-rows: 10.179640718562874vh 110.317365269461078vh  129.34131736526948vh 134.7305389221557vh 109.88023952095809vh 64.97005988023952vh;
-    grid-template-areas: "nav-bar "
+    grid-template-areas: "nav-bar"
     "profile "
     "exp "
     "Experience"
@@ -168,14 +168,32 @@
     
 }
 
-.Exp>.image2{
+.one-year-exp{
     position: absolute;
     width :149px;
     height:230px;
-    box-sizing: border-box;
     left: 211px;
     top:69px;
+    box-sizing: border-box;
+    bottom: 0px;
+}
 
+
+.one{
+    font-size: 120px;
+    height:142px;
+   bottom: 0px;
+   color: var(--colr-purpledark);
+   font-family: var(--font-rubik);
+}
+
+.years-exp{
+    font-size: x-large;
+    font-weight:normal;
+    position:absolute;
+    top:133px;
+    color: var(--colr-purpleultradark);
+    font-family: var(--font-rubik);
 }
 
 .exp-icon{
@@ -278,8 +296,9 @@
    margin-left:211px;
    z-index: 1;
    display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
+    
 }
 
 .text-exp{
@@ -342,7 +361,7 @@
 
 .footer-btn{
     margin-top:119px;
-    margin-left:50px;
+    margin-left:211px;
     width: 281px;
     height: 60px;
     border:var( --colr-white) solid; 
